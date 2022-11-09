@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+
+.form-checks{
+    text-align: center;
+}
+
+.flashSucces{
+    color:green;
+	font-weight: bold;
+	font-family: Verdana;
+}
+.flashError{
+ color: red;
+ font-weight: bold;
+	font-family: Verdana;
+}
+
+.login-form{
+    text-align: center;
+}

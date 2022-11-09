@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.register.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Register</h1>
+    </div>
+
+    <div class="form-checks">
+        <form action="/register" method="post">
+         <div class="flashSucces">
+            <h5>{{messages.success}}</h5>
+        </div>
+        <div class="flashError">
+            <h5>{{messages.error}}</h5>
+        </div>
+        <div class="form-data">
+        <label for="" >Waiter's Name : </label>
+        <input type="text" name="waiter" ><br><br>
+        <input type="submit" value="Register">
+        </div>
+
+         <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="\login"
+                    class="fw-bold text-body"><u>Login here</u></a></p>
+        </form>
+    </div>
+
+</body>
+</html>
